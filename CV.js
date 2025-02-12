@@ -383,23 +383,24 @@ function CV() {
   ];
   return (
     <div className="max-w-4xl mx-auto p-8 bg-white">
-      <header className="mb-8 flex items-center">
-        <img src="./IMG_5847.jpg" alt="Yahya BENABDELKRIM" className="w-32 h-32 rounded-full mr-8 object-cover" />
-        <div>
-          <h1 className="text-3xl font-bold mb-2">Yahya BENABDELKRIM</h1>
-          <h2 className="text-xl text-blue-600 mb-4">Chef de projets AMOA spécialisé en SI Finance & Trésorerie</h2>
-          <div className="text-gray-600">
-            <p>📞 +33 (0)6 99 23 32 20</p>
-            <p>✉️ Benabdelkrim.yahya@gmail.com</p>
-            <p>📍 Boulogne-Billancourt</p>
-            <p>
-              <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" className="inline w-5 h-5 mr-1" />
-              <a href="https://www.linkedin.com/in/yahyabenabdelkrim/" className="text-blue-600">LinkedIn</a>
-            </p>
-            <p>🇫🇷 Nationalité : Française</p>
-          </div>
-        </div>
-      </header>
+<header className="mb-8 flex items-center">
+  <img src="./IMG_5847.jpg" alt="Yahya BENABDELKRIM" className="w-32 h-32 rounded-full mr-8 object-cover" />
+  <div>
+    <h1 className="text-3xl font-bold mb-2">Yahya BENABDELKRIM</h1>
+    <h2 className="text-xl text-blue-600 mb-2">Chef de projets AMOA spécialisé en SI Finance & Trésorerie</h2>
+    <p className="text-lg text-gray-700 mb-4">8 ans d'expérience dans le domaine du Transport</p>
+    <div className="text-gray-600">
+      <p>📞 +33 (0)6 99 23 32 20</p>
+      <p>✉️ Benabdelkrim.yahya@gmail.com</p>
+      <p>📍 Boulogne-Billancourt</p>
+      <p>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" className="inline w-5 h-5 mr-1" />
+        <a href="https://www.linkedin.com/in/yahyabenabdelkrim/" className="text-blue-600">LinkedIn</a>
+      </p>
+      <p>🇫🇷 Nationalité : Française</p>
+    </div>
+  </div>
+</header>
 
       <section className="mb-8">
         <h2 className="text-2xl font-bold mb-4">🔧 Niveaux d'interventions en conseil et AMOA</h2>
